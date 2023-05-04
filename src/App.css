@@ -13,6 +13,10 @@
   }
 }
 
+body {
+  background-image: linear-gradient(to right, rgb(239, 20, 20), rgb(245, 78, 52), rgb(227, 85, 85), rgb(225, 116, 108), rgb(255, 154, 154), rgb(247, 185, 185), rgb(250, 203, 203));
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +36,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
